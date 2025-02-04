@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme{
+            --font-cinzel: "Cinzel", "sans-serif";
+            --font-montserrat: "Montserrat", "sans-serif";
+            --font-poppins: "Poppins", "sans-serif";
+        }
+    </style>
+  </head>
+  <body class="bg-[#003366] md:bg-[url(/assets/images/bg-intro-desktop.png)] bg-[url(/assets/images/bg-intro-mobile.png)] text-white font-montserrat text-sm md:text-base ">
+    <header class="font-cinzel text-[10px] md:text-base">
+      <div class="flex items-center justify-around border-b-1 border-b-gray-300 shadow-md p-4  ">
+        <h2 id="home" class="text-[#FFB6C1]">Yves Kouame</h2>
+        <div>
+          <nav class="flex items-center  gap-2 md:gap-4">
+            <a href="#home" class=" hover:text-[#FFB6C1]">Acceuil</a>
+            <a href="#about" class=" hover:text-[#FFB6C1]">A propos de moi </a>
+            <a href="#projects" class=" hover:text-[#FFB6C1]">Projets</a>
+            <a href="#contact" class=" hover:text-[#FFB6C1]">Contact</a>
+          </nav>
+        </div>
+      </div>
+      </div>
+      <div class="flex items-center justify-center lg:w-[1200px] lg:m-auto h-[350px] md:h-[550px] lg:gap-11">
+        <div class=" flex flex-col gap-4 text-center">
+        <p class="text-3xl md:text-6xl ">Hello !</p>
+        <p class="text-3xl md:text-6xl gap-4 text-white">Moi c'est <span class="text-[#FFB6C1]">Yves Kouame</span></p>
+        <p class=" text-2xl md:text-4xl">Je suis <span class="text-[#FFB6C1]">développeur Fullstack.</span></p>
+        </div>
+        <div class=" h-full box-border flex justify-end"><img src="assets/images/img3-removebg-preview.png" alt="" class="max-w-full h-full hidden lg:block "></div>
+      </div>
+    </header>
+    <main>
+      <div class="flex flex-col lg:flex-row justify-center items-center lg:py-11 bg-[#0c2744] gap-5 ">
+        <div class="w-[300px] lg:w-[500px] lg:h-[500px] flex justify-center ">
+          <img src="assets/images/profile2.jpeg" alt="" class="max-w-full p-4 lg:p-0">
+        </div>
+        <div class="w-full lg:w-[500px] flex flex-col text-center p-3 lg:text-left text-white gap-3" id="about">
+          <div class="flex flex-col gap-4">
+          <h3 class="text-3xl">Salut !</h3>
+          <h1>Je suis un developpeur Fullstack</h1>
+          <p>Expert en développement web, je crée des applications complètes en maîtrisant le front-end (HTML, CSS, JavaScript) et le back-end (Node.js, Python). Je travaille de manière autonome ou en équipe pour livrer des solutions de haute qualité adaptées aux besoins des utilisateurs.</p>
+        </div>
+          <div class="flex flex-wrap md:flex-nowrap lg:flex-wrap gap-8 w-full  mt-2 capitalize text-left m-auto ms-5 md:ms-3">
+            <p>nom <br><span class="text-[#FFB6C1]">Yves Kouame</span></p>
+            <a href="yvesplacide75@gmail.com"><p>email <br><span class="text-[#FFB6C1] hover:text-[#e44b62] cursor-pointer transition duration-300">yvesplacide75@gmail.com</span></p></a>
+            <p>age <br><span class="text-[#FFB6C1]">23ans</span></p>
+            <p>telephone <br><span class="text-[#FFB6C1]">0779545834</span></p>
+            <p>job <br><span class="text-[#FFB6C1]">ingenieur fullstack</span></p>
+            <p>residence <br><span class="text-[#FFB6C1]">abidjan, cote d'ivoire</span></p>
+          </div>
+          <div class="flex  gap-5 items-center mt-1 ">
+            <a href="assets/CV/KOUAMECV.pdf" download>
+            <button class="bg-[#ea7e8e] text-white px-4 py-3 rounded-[5rem] hover:bg-[#e44b62] cursor-pointer transition duration-300">Telecharger CV</button></a>
+            <a href="#contact"><button class="bg-white text-[#FFB6C1] px-4 py-2 rounded-[5rem] border-2 border-[#FFB6C1] cursor-pointer hover:bg-[#FFB6C1] hover:text-white">Me contactez</button></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="p-[50px] py-16 text-white  bg-[#103762]">
+        <div class="text-center">
+       <h1 class="text-3xl text-center uppercase">Mes Qualifications</h1>
+      </div>
+       <div class="flex flex-col items-center  m-auto gap-4 py-11 lg:flex-row">
+        <div>
+          <p class="text-2xl text-[#FFB6C1]">Education</p>
+          <div class="w-full  p-5 bg-[#0c2744] border-s-2 border-b-[1px] border-[#FFB6C1]">
+            <h2>BTS en Informatique developpeur d'Application</h2>
+            <p> Apres deux ans en licence professionnel j'ai obtenu une certifiction microsoft word excel et ensuite le BTS option IDA</p>
+          </div>
+          <div class="w-full  p-5 bg-[#0c2744] border-s-2 border-b-[1px] border-[#FFB6C1]">
+            <h2>Baccalaureat serie D</h2>
+            <p>En 2019, j'ai obtenu mon baccalaureat avec mention assez honorable.</p>
+          </div>
+        </div>
+        <div>
+          <p  class="text-2xl text-[#FFB6C1]">Experience</p>
+          <div class="w-full  p-5 bg-[#0c2744] border-s-2 border-b-[1px] border-[#FFB6C1]">
+            <h2>Freelance développeur web</h2>
+            <p>J'ai travaillé pour un entreprise de taille moyenne depuis 2022 et j'ai pu développer des applications web responsive.</p>
+          </div>
+          <div class="w-full  p-5 bg-[#0c2744] border-s-2 border-b-[1px] border-[#FFB6C1]">
+            <h2>Stage de 3 mois en entreprise</h2>
+            <p>J'ai travaillé pour une entreprise de taille moyenne depuis 2019 et j'ai pu développer des applications web responsive.</p>
+          </div>
+        </div>
+       </div>
+      </div>
+      <section id="projects" class="py-[70px] bg-[#0c2744]">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl text-white uppercase">Mes Projets</h2>
+        </div>
+        <div class="grid gap-8 px-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="bg-[#003366] p-6 rounded-xl shadow-lg">
+            <img src="assets/images/e-commercieIMage.jpg" alt="Project 1" class="w-full h-48 object-cover rounded-md mb-4">
+            <h3 class="text-xl font-semibold mb-2 text-[#FFB6C1]">Application E-commerce</h3>
+            <p>Une application complète de vente en ligne avec gestion de panier et paiement sécurisé.</p>
+          </div>
+          <div class="bg-[#003366] p-6 rounded-xl shadow-lg">
+            <img src="assets/images/portfolioimage.jpg" alt="Project 2" class="w-full h-48 object-cover rounded-md mb-4">
+            <h3 class="text-xl font-semibold mb-2 text-[#FFB6C1]">Portfolio Interactif</h3>
+            <p>Un portfolio moderne mettant en valeur mes compétences et projets récents.</p>
+          </div>
+          <div class="bg-[#003366] p-6 rounded-xl shadow-lg">
+            <img src="assets/images/ApplicationMobileProject.jpg" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+            <h3 class="text-xl font-semibold mb-2 text-[#FFB6C1]">Application Mobile</h3>
+            <p>Développement d'une application mobile avec Flutter pour une expérience utilisateur fluide.</p>
+          </div>
+        </div>
+      </section>
+      <div class="p-10  " id="contact">
+        <h1 class="text-3xl text-center uppercase underline text-[#FF6F61]">Contactez-moi</h1>
+        <form action="" class=" md:flex flex-col py-10 gap-9 ">
+          <div class="flex flex-col md:w-full gap-5 m-auto lg:flex-row">
+            <input type="text" class="border border-solid w-full lg:w-1/2 h-[40px] focus:outline-none border-white bg-transparent hover:border-[#FF6F61]" placeholder="Nom complet">
+            <input type="email" class="border border-solid w-full lg:w-1/2  h-[40px] focus:outline-none  bg-transparent border-white hover:border-[#FF6F61] " placeholder="Email">
+          </div>
+          <div class="flex md:w-full  my-7 gap-5 md:m-auto">
+            <input type="text" placeholder="Objet" class="border border-solid w-full h-[40px] focus:outline-none  border-white hover:border-[#FF6F61] bg-transparent ">
+          </div>
+          <div class="flex md:w-full gap-5 mb-7 md:m-auto">
+            <textarea placeholder="Votre message" class="border border-solid w-full h-[200px] focus:outline-none bg-transparent border-white hover:border-[#FF6F61]" ></textarea>
+          </div>
+          <div class="flex  gap-5">
+            <button type="submit" class=" text-[#FF6F61] border-[#FF6F61] px-4 py-3 bg-transparent  border border-solid  hover:text-white hover:border-[#FF6F61] transition duration-300 hover:bg-[#FF6F61] focus:bg-white ">Envoyer</button>
+          </div> 
+        </form>
+      </div>
+    </main>
+    <footer class="p-11 text-center bg-[#0c2744] flex items-center justify-around flex-col md:flex-row text-sm md:text-base">
+      <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+      <div class="text-[#FFB6C1] cursor-pointer">
+        <ul class="flex gap-4">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-whatsapp"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
